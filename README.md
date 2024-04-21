@@ -4,7 +4,7 @@
 + Находясь в папке с проектом, ввести следующие команды в терминал:
 
       chmod +x build.sh && ./build.sh
-      ./ProyectoQt
+      ./build/ProyectoQt
 
     
     

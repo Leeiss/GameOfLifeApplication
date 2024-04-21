@@ -28,7 +28,7 @@ endforeach()
 find_package(Qt5 COMPONENTS Widgets REQUIRED)
 
 # Добавим исполняемый файл
-add_executable(ProyectoQt mainEjemplo.cpp)
+add_executable(ProyectoQt src/mainEjemplo.cpp)
 
 # Укажем, что наш проект использует Qt
 target_link_libraries(ProyectoQt PRIVATE Qt5::Widgets)
