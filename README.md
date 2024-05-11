@@ -3,8 +3,7 @@
 + Склонировать репозиторий
 + Находясь в папке с проектом, ввести следующие команды в терминал:
 
-      chmod +x build.sh && ./build.sh
-      ./build/ProyectoQt
+      cmake . && make && ./game_of_life
 
     
     
