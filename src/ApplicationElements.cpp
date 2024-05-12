@@ -1,5 +1,6 @@
 
 #include "../headers/ApplicationElements.h"
+
 #include "../headers/Libs.h"
 
 float InterfaceManager::Clamp(float value, float min, float max) {
@@ -17,10 +18,6 @@ void InterfaceManager::DrawSlider(Slider slider) {
                             slider.bounds.width * (slider.value / 500),
                             slider.bounds.height};
   DrawRectangleRec(filledBounds, Color{116, 66, 200, 255});
-
-  DrawText(TextFormat("%i", (int)slider.value),
-           slider.bounds.x + slider.bounds.width + 10,
-           slider.bounds.y + slider.bounds.height / 2 - 10, 20, BLACK);
 }
 
 void InterfaceManager::SliderOptions(Slider &numberOfCellsSlider,
@@ -34,14 +31,12 @@ void InterfaceManager::DrawGeneralMenuItems(bool manualMode,
                                             Slider speedSlider) {
   DrawRectangle(10, 10, 30, 30, BLACK);
   DrawText("<-", 15, 15, 20, WHITE);
-  DrawRectangle(10, 10, 300, SCREEN_HEIGHT - 20,
-                Fade(BLACK, 0.8f)); 
-  DrawText("> press:", 20, 50, 21,
-           Fade(Color{116, 66, 200, 255}, 0.8f));  
+  DrawRectangle(10, 10, 300, SCREEN_HEIGHT - 20, Fade(BLACK, 0.8f));
+  DrawText("> press:", 20, 50, 21, Fade(Color{116, 66, 200, 255}, 0.8f));
   DrawText(TextFormat("%i", (int)speedSlider.value),
            speedSlider.bounds.x + speedSlider.bounds.width - 25,
            speedSlider.bounds.y - 20, 15, WHITE);
-  DrawText("Change speed", 20, SCREEN_HEIGHT - 220, 17,
+  DrawText("Change cell size", 20, SCREEN_HEIGHT - 220, 17,
            Color{116, 66, 200, 255});
   DrawSlider(speedSlider);
   DrawRectangle(20, SCREEN_HEIGHT - 60, 280, 40,
@@ -52,17 +47,16 @@ void InterfaceManager::DrawGeneralMenuItems(bool manualMode,
 
 void InterfaceManager::DrawRandomModeMenuItems(Slider numberOfCellsSlider,
                                                Slider speedSlider) {
-  DrawText(">  >r<  to restore camera", 30, 80, 20, WHITE);
-  DrawText(">  >x<  for dumping\n", 30, 110, 20, WHITE);
+  DrawText(">  >x<  for dumping", 30, 80, 20, WHITE);
   DrawText(
       ">  >s<  to spawn artificial\n"
       "generation\n",
-      30, 140, 20, WHITE);
+      30, 110, 20, WHITE);
   DrawText(
       "\n>  >left mouse<  to spawn\n"
       "one cell",
-      30, 170, 20, WHITE);
-  DrawText(">  >esc<  to quit the game", 30, 230, 20, WHITE);
+      30, 140, 20, WHITE);
+  DrawText("\n>  >esc<  to quit the game", 30, 200, 20, WHITE);
 
   DrawText("Change the number of\ncells added", 20, SCREEN_HEIGHT - 150, 17,
            Color{116, 66, 200, 255});
@@ -76,9 +70,10 @@ void InterfaceManager::DrawRandomModeMenuItems(Slider numberOfCellsSlider,
 }
 
 void InterfaceManager::DrawManualModeMenuItems() {
-  DrawText(">  >g<  to go", 30, 80, 20, WHITE);
-  DrawText(">  >p<  to stop", 30, 110, 20, WHITE);
-  DrawText(">  >x<  for dumping", 30, 140, 20, WHITE);
+  DrawText(">  >x<  for dumping", 30, 80, 20, WHITE);
+  DrawText(">  >g<  to go", 30, 110, 20, WHITE);
+  DrawText(">  >p<  to stop", 30, 140, 20, WHITE);
+  DrawText(">  >esc<  to quit the game", 30, 170, 20, WHITE);
 }
 
 void InterfaceManager::DrawWithoutMenu() { DrawText("->", 15, 15, 20, WHITE); };

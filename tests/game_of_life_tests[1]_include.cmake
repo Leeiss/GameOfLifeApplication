@@ -1,0 +1,5 @@
+if(EXISTS "/mnt/c/Users/farra/OneDrive/Рабочий стол/C++ files/neww/tests/game_of_life_tests[1]_tests.cmake")
+  include("/mnt/c/Users/farra/OneDrive/Рабочий стол/C++ files/neww/tests/game_of_life_tests[1]_tests.cmake")
+else()
+  add_test(game_of_life_tests_NOT_BUILT game_of_life_tests_NOT_BUILT)
+endif()

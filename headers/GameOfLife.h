@@ -29,7 +29,6 @@ class GameOfLifeApp {
   void Run();
 
  private:
-  void UpdateCamera();
   void UpdateInteraction();
   void Draw();
   void ImplementMenuCommands();

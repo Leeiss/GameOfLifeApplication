@@ -9,7 +9,7 @@ struct Slider {
 };
 const int SCREEN_WIDTH = 1024;
 const int SCREEN_HEIGHT = 720;
-const int CELL_SIZE = 5;
+const int CELL_SIZE = 10;
 class InterfaceManager {
  public:
   float Clamp(float value, float min, float max);
