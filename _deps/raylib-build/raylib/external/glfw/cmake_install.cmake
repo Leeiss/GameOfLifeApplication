@@ -1,4 +1,4 @@
-# Install script for directory: /mnt/c/Users/farra/OneDrive/Рабочий стол/C++ files/q/_deps/raylib-src/src/external/glfw
+# Install script for directory: /mnt/c/Users/farra/OneDrive/Рабочий стол/C++ files/neww/_deps/raylib-src/src/external/glfw
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,6 +44,6 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/mnt/c/Users/farra/OneDrive/Рабочий стол/C++ files/q/_deps/raylib-build/raylib/external/glfw/src/cmake_install.cmake")
+  include("/mnt/c/Users/farra/OneDrive/Рабочий стол/C++ files/neww/_deps/raylib-build/raylib/external/glfw/src/cmake_install.cmake")
 endif()
 

@@ -1,12 +1,12 @@
 _deps/raylib-build/raylib/CMakeFiles/raylib.dir/rtext.c.o: \
- /mnt/c/Users/farra/OneDrive/Рабочий\ стол/C++\ files/q/_deps/raylib-src/src/rtext.c \
+ /mnt/c/Users/farra/OneDrive/Рабочий\ стол/C++\ files/neww/_deps/raylib-src/src/rtext.c \
  /usr/include/stdc-predef.h \
- /mnt/c/Users/farra/OneDrive/Рабочий\ стол/C++\ files/q/_deps/raylib-src/src/raylib.h \
+ /mnt/c/Users/farra/OneDrive/Рабочий\ стол/C++\ files/neww/_deps/raylib-src/src/raylib.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdbool.h \
- /mnt/c/Users/farra/OneDrive/Рабочий\ стол/C++\ files/q/_deps/raylib-src/src/config.h \
- /mnt/c/Users/farra/OneDrive/Рабочий\ стол/C++\ files/q/_deps/raylib-src/src/utils.h \
- /mnt/c/Users/farra/OneDrive/Рабочий\ стол/C++\ files/q/_deps/raylib-src/src/rlgl.h \
+ /mnt/c/Users/farra/OneDrive/Рабочий\ стол/C++\ files/neww/_deps/raylib-src/src/config.h \
+ /mnt/c/Users/farra/OneDrive/Рабочий\ стол/C++\ files/neww/_deps/raylib-src/src/utils.h \
+ /mnt/c/Users/farra/OneDrive/Рабочий\ стол/C++\ files/neww/_deps/raylib-src/src/rlgl.h \
  /usr/include/stdlib.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -57,9 +57,9 @@ _deps/raylib-build/raylib/CMakeFiles/raylib.dir/rtext.c.o: \
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
  /usr/include/strings.h /usr/include/ctype.h \
- /mnt/c/Users/farra/OneDrive/Рабочий\ стол/C++\ files/q/_deps/raylib-src/src/external/stb_rect_pack.h \
+ /mnt/c/Users/farra/OneDrive/Рабочий\ стол/C++\ files/neww/_deps/raylib-src/src/external/stb_rect_pack.h \
  /usr/include/assert.h \
- /mnt/c/Users/farra/OneDrive/Рабочий\ стол/C++\ files/q/_deps/raylib-src/src/external/stb_truetype.h \
+ /mnt/c/Users/farra/OneDrive/Рабочий\ стол/C++\ files/neww/_deps/raylib-src/src/external/stb_truetype.h \
  /usr/include/math.h /usr/include/x86_64-linux-gnu/bits/math-vector.h \
  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
  /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h \

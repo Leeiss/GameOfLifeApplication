@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/mnt/c/Users/farra/OneDrive/Рабочий стол/C++ files/q"
+CMAKE_SOURCE_DIR = "/mnt/c/Users/farra/OneDrive/Рабочий стол/C++ files/neww"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/mnt/c/Users/farra/OneDrive/Рабочий стол/C++ files/q"
+CMAKE_BINARY_DIR = "/mnt/c/Users/farra/OneDrive/Рабочий стол/C++ files/neww"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -68,7 +68,7 @@ CMAKE_BINARY_DIR = "/mnt/c/Users/farra/OneDrive/Рабочий стол/C++ file
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd "/mnt/c/Users/farra/OneDrive/Рабочий стол/C++ files/q" && /usr/bin/cpack --config ./CPackConfig.cmake
+	cd "/mnt/c/Users/farra/OneDrive/Рабочий стол/C++ files/neww" && /usr/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -78,7 +78,7 @@ package/fast: package
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd "/mnt/c/Users/farra/OneDrive/Рабочий стол/C++ files/q" && /usr/bin/cpack --config ./CPackSourceConfig.cmake /mnt/c/Users/farra/OneDrive/Рабочий\ стол/C++\ files/q/CPackSourceConfig.cmake
+	cd "/mnt/c/Users/farra/OneDrive/Рабочий стол/C++ files/neww" && /usr/bin/cpack --config ./CPackSourceConfig.cmake /mnt/c/Users/farra/OneDrive/Рабочий\ стол/C++\ files/neww/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -152,14 +152,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd "/mnt/c/Users/farra/OneDrive/Рабочий стол/C++ files/q" && $(CMAKE_COMMAND) -E cmake_progress_start "/mnt/c/Users/farra/OneDrive/Рабочий стол/C++ files/q/CMakeFiles" "/mnt/c/Users/farra/OneDrive/Рабочий стол/C++ files/q/_deps/raylib-build//CMakeFiles/progress.marks"
-	cd "/mnt/c/Users/farra/OneDrive/Рабочий стол/C++ files/q" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/raylib-build/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/c/Users/farra/OneDrive/Рабочий стол/C++ files/q/CMakeFiles" 0
+	cd "/mnt/c/Users/farra/OneDrive/Рабочий стол/C++ files/neww" && $(CMAKE_COMMAND) -E cmake_progress_start "/mnt/c/Users/farra/OneDrive/Рабочий стол/C++ files/neww/CMakeFiles" "/mnt/c/Users/farra/OneDrive/Рабочий стол/C++ files/neww/_deps/raylib-build//CMakeFiles/progress.marks"
+	cd "/mnt/c/Users/farra/OneDrive/Рабочий стол/C++ files/neww" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/raylib-build/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/c/Users/farra/OneDrive/Рабочий стол/C++ files/neww/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd "/mnt/c/Users/farra/OneDrive/Рабочий стол/C++ files/q" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/raylib-build/clean
+	cd "/mnt/c/Users/farra/OneDrive/Рабочий стол/C++ files/neww" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/raylib-build/clean
 .PHONY : clean
 
 # The main clean target
@@ -168,17 +168,17 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd "/mnt/c/Users/farra/OneDrive/Рабочий стол/C++ files/q" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/raylib-build/preinstall
+	cd "/mnt/c/Users/farra/OneDrive/Рабочий стол/C++ files/neww" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/raylib-build/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd "/mnt/c/Users/farra/OneDrive/Рабочий стол/C++ files/q" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/raylib-build/preinstall
+	cd "/mnt/c/Users/farra/OneDrive/Рабочий стол/C++ files/neww" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/raylib-build/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd "/mnt/c/Users/farra/OneDrive/Рабочий стол/C++ files/q" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd "/mnt/c/Users/farra/OneDrive/Рабочий стол/C++ files/neww" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Help Target
@@ -206,6 +206,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd "/mnt/c/Users/farra/OneDrive/Рабочий стол/C++ files/q" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd "/mnt/c/Users/farra/OneDrive/Рабочий стол/C++ files/neww" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

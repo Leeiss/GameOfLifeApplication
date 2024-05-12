@@ -1,7 +1,7 @@
 # Make file names absolute:
 #
-get_filename_component(filename "/mnt/c/Users/farra/OneDrive/Рабочий стол/C++ files/q/_deps/raylib-subbuild/raylib-populate-prefix/src/4.5.0.tar.gz" ABSOLUTE)
-get_filename_component(directory "/mnt/c/Users/farra/OneDrive/Рабочий стол/C++ files/q/_deps/raylib-src" ABSOLUTE)
+get_filename_component(filename "/mnt/c/Users/farra/OneDrive/Рабочий стол/C++ files/neww/_deps/raylib-subbuild/raylib-populate-prefix/src/4.5.0.tar.gz" ABSOLUTE)
+get_filename_component(directory "/mnt/c/Users/farra/OneDrive/Рабочий стол/C++ files/neww/_deps/raylib-src" ABSOLUTE)
 
 message(STATUS "extracting...
      src='${filename}'

@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP
 
-CXX_INCLUDES = -I"/mnt/c/Users/farra/OneDrive/Рабочий стол/C++ files/q/_deps/raylib-src/src" -I"/mnt/c/Users/farra/OneDrive/Рабочий стол/C++ files/q/_deps/raylib-src/src/external/glfw/include"
+CXX_INCLUDES = -I"/mnt/c/Users/farra/OneDrive/Рабочий стол/C++ files/neww/_deps/raylib-src/src" -I"/mnt/c/Users/farra/OneDrive/Рабочий стол/C++ files/neww/_deps/raylib-src/src/external/glfw/include"
 
 CXX_FLAGS = 
 

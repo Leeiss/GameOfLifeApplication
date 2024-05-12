@@ -1,9 +1,9 @@
 CMakeFiles/game_of_life.dir/src/ApplicationElements.cpp.o: \
- /mnt/c/Users/farra/OneDrive/Рабочий\ стол/C++\ files/q/src/ApplicationElements.cpp \
+ /mnt/c/Users/farra/OneDrive/Рабочий\ стол/C++\ files/neww/src/ApplicationElements.cpp \
  /usr/include/stdc-predef.h \
- /mnt/c/Users/farra/OneDrive/Рабочий\ стол/C++\ files/q/src/../headers/ApplicationElements.h \
- /mnt/c/Users/farra/OneDrive/Рабочий\ стол/C++\ files/q/src/../headers/Libs.h \
- /mnt/c/Users/farra/OneDrive/Рабочий\ стол/C++\ files/q/_deps/raylib-src/src/raylib.h \
+ /mnt/c/Users/farra/OneDrive/Рабочий\ стол/C++\ files/neww/src/../headers/ApplicationElements.h \
+ /mnt/c/Users/farra/OneDrive/Рабочий\ стол/C++\ files/neww/src/../headers/Libs.h \
+ /mnt/c/Users/farra/OneDrive/Рабочий\ стол/C++\ files/neww/_deps/raylib-src/src/raylib.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
  /usr/include/c++/11/vector /usr/include/c++/11/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
@@ -186,4 +186,4 @@ CMakeFiles/game_of_life.dir/src/ApplicationElements.cpp.o: \
  /usr/include/c++/11/bits/basic_ios.tcc \
  /usr/include/c++/11/bits/ostream.tcc /usr/include/c++/11/istream \
  /usr/include/c++/11/bits/istream.tcc \
- /mnt/c/Users/farra/OneDrive/Рабочий\ стол/C++\ files/q/src/../headers/Libs.h
+ /mnt/c/Users/farra/OneDrive/Рабочий\ стол/C++\ files/neww/src/../headers/Libs.h

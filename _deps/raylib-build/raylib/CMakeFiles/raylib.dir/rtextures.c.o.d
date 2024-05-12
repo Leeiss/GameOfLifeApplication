@@ -1,12 +1,12 @@
 _deps/raylib-build/raylib/CMakeFiles/raylib.dir/rtextures.c.o: \
- /mnt/c/Users/farra/OneDrive/Рабочий\ стол/C++\ files/q/_deps/raylib-src/src/rtextures.c \
+ /mnt/c/Users/farra/OneDrive/Рабочий\ стол/C++\ files/neww/_deps/raylib-src/src/rtextures.c \
  /usr/include/stdc-predef.h \
- /mnt/c/Users/farra/OneDrive/Рабочий\ стол/C++\ files/q/_deps/raylib-src/src/raylib.h \
+ /mnt/c/Users/farra/OneDrive/Рабочий\ стол/C++\ files/neww/_deps/raylib-src/src/raylib.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdbool.h \
- /mnt/c/Users/farra/OneDrive/Рабочий\ стол/C++\ files/q/_deps/raylib-src/src/config.h \
- /mnt/c/Users/farra/OneDrive/Рабочий\ стол/C++\ files/q/_deps/raylib-src/src/utils.h \
- /mnt/c/Users/farra/OneDrive/Рабочий\ стол/C++\ files/q/_deps/raylib-src/src/rlgl.h \
+ /mnt/c/Users/farra/OneDrive/Рабочий\ стол/C++\ files/neww/_deps/raylib-src/src/config.h \
+ /mnt/c/Users/farra/OneDrive/Рабочий\ стол/C++\ files/neww/_deps/raylib-src/src/utils.h \
+ /mnt/c/Users/farra/OneDrive/Рабочий\ стол/C++\ files/neww/_deps/raylib-src/src/rlgl.h \
  /usr/include/stdlib.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -64,7 +64,7 @@ _deps/raylib-build/raylib/CMakeFiles/raylib.dir/rtextures.c.o: \
  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
- /mnt/c/Users/farra/OneDrive/Рабочий\ стол/C++\ files/q/_deps/raylib-src/src/external/stb_image.h \
+ /mnt/c/Users/farra/OneDrive/Рабочий\ стол/C++\ files/neww/_deps/raylib-src/src/external/stb_image.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
  /usr/include/limits.h /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
@@ -80,8 +80,8 @@ _deps/raylib-build/raylib/CMakeFiles/raylib.dir/rtextures.c.o: \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/xmmintrin.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/mmintrin.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/mm_malloc.h \
- /mnt/c/Users/farra/OneDrive/Рабочий\ стол/C++\ files/q/_deps/raylib-src/src/external/rl_gputex.h \
- /mnt/c/Users/farra/OneDrive/Рабочий\ стол/C++\ files/q/_deps/raylib-src/src/external/qoi.h \
- /mnt/c/Users/farra/OneDrive/Рабочий\ стол/C++\ files/q/_deps/raylib-src/src/external/stb_image_write.h \
- /mnt/c/Users/farra/OneDrive/Рабочий\ стол/C++\ files/q/_deps/raylib-src/src/external/stb_perlin.h \
- /mnt/c/Users/farra/OneDrive/Рабочий\ стол/C++\ files/q/_deps/raylib-src/src/external/stb_image_resize.h
+ /mnt/c/Users/farra/OneDrive/Рабочий\ стол/C++\ files/neww/_deps/raylib-src/src/external/rl_gputex.h \
+ /mnt/c/Users/farra/OneDrive/Рабочий\ стол/C++\ files/neww/_deps/raylib-src/src/external/qoi.h \
+ /mnt/c/Users/farra/OneDrive/Рабочий\ стол/C++\ files/neww/_deps/raylib-src/src/external/stb_image_write.h \
+ /mnt/c/Users/farra/OneDrive/Рабочий\ стол/C++\ files/neww/_deps/raylib-src/src/external/stb_perlin.h \
+ /mnt/c/Users/farra/OneDrive/Рабочий\ стол/C++\ files/neww/_deps/raylib-src/src/external/stb_image_resize.h

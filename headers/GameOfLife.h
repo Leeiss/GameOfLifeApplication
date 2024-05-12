@@ -33,7 +33,7 @@ class GameOfLifeApp {
   void UpdateInteraction();
   void Draw();
   void ImplementMenuCommands();
-  void ImplementGeneralCommands();
+  void ImplemenntGeneralCommands();
   void ImplementEventSpeedSliderChanged();
   void ImplementEventAmountOfCellsSliderChanged();
   void ImplementEventModeChanged();

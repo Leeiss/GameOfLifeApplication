@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/mnt/c/Users/farra/OneDrive/Рабочий стол/C++ files/q"
+CMAKE_SOURCE_DIR = "/mnt/c/Users/farra/OneDrive/Рабочий стол/C++ files/neww"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/mnt/c/Users/farra/OneDrive/Рабочий стол/C++ files/q"
+CMAKE_BINARY_DIR = "/mnt/c/Users/farra/OneDrive/Рабочий стол/C++ files/neww"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/game_of_life.dir/depend.make
@@ -72,58 +72,58 @@ include CMakeFiles/game_of_life.dir/flags.make
 CMakeFiles/game_of_life.dir/src/main.cpp.o: CMakeFiles/game_of_life.dir/flags.make
 CMakeFiles/game_of_life.dir/src/main.cpp.o: src/main.cpp
 CMakeFiles/game_of_life.dir/src/main.cpp.o: CMakeFiles/game_of_life.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Users/farra/OneDrive/Рабочий стол/C++ files/q/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/game_of_life.dir/src/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game_of_life.dir/src/main.cpp.o -MF CMakeFiles/game_of_life.dir/src/main.cpp.o.d -o CMakeFiles/game_of_life.dir/src/main.cpp.o -c "/mnt/c/Users/farra/OneDrive/Рабочий стол/C++ files/q/src/main.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Users/farra/OneDrive/Рабочий стол/C++ files/neww/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/game_of_life.dir/src/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game_of_life.dir/src/main.cpp.o -MF CMakeFiles/game_of_life.dir/src/main.cpp.o.d -o CMakeFiles/game_of_life.dir/src/main.cpp.o -c "/mnt/c/Users/farra/OneDrive/Рабочий стол/C++ files/neww/src/main.cpp"
 
 CMakeFiles/game_of_life.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game_of_life.dir/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/c/Users/farra/OneDrive/Рабочий стол/C++ files/q/src/main.cpp" > CMakeFiles/game_of_life.dir/src/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/c/Users/farra/OneDrive/Рабочий стол/C++ files/neww/src/main.cpp" > CMakeFiles/game_of_life.dir/src/main.cpp.i
 
 CMakeFiles/game_of_life.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game_of_life.dir/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/c/Users/farra/OneDrive/Рабочий стол/C++ files/q/src/main.cpp" -o CMakeFiles/game_of_life.dir/src/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/c/Users/farra/OneDrive/Рабочий стол/C++ files/neww/src/main.cpp" -o CMakeFiles/game_of_life.dir/src/main.cpp.s
 
 CMakeFiles/game_of_life.dir/src/ApplicationElements.cpp.o: CMakeFiles/game_of_life.dir/flags.make
 CMakeFiles/game_of_life.dir/src/ApplicationElements.cpp.o: src/ApplicationElements.cpp
 CMakeFiles/game_of_life.dir/src/ApplicationElements.cpp.o: CMakeFiles/game_of_life.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Users/farra/OneDrive/Рабочий стол/C++ files/q/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/game_of_life.dir/src/ApplicationElements.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game_of_life.dir/src/ApplicationElements.cpp.o -MF CMakeFiles/game_of_life.dir/src/ApplicationElements.cpp.o.d -o CMakeFiles/game_of_life.dir/src/ApplicationElements.cpp.o -c "/mnt/c/Users/farra/OneDrive/Рабочий стол/C++ files/q/src/ApplicationElements.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Users/farra/OneDrive/Рабочий стол/C++ files/neww/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/game_of_life.dir/src/ApplicationElements.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game_of_life.dir/src/ApplicationElements.cpp.o -MF CMakeFiles/game_of_life.dir/src/ApplicationElements.cpp.o.d -o CMakeFiles/game_of_life.dir/src/ApplicationElements.cpp.o -c "/mnt/c/Users/farra/OneDrive/Рабочий стол/C++ files/neww/src/ApplicationElements.cpp"
 
 CMakeFiles/game_of_life.dir/src/ApplicationElements.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game_of_life.dir/src/ApplicationElements.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/c/Users/farra/OneDrive/Рабочий стол/C++ files/q/src/ApplicationElements.cpp" > CMakeFiles/game_of_life.dir/src/ApplicationElements.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/c/Users/farra/OneDrive/Рабочий стол/C++ files/neww/src/ApplicationElements.cpp" > CMakeFiles/game_of_life.dir/src/ApplicationElements.cpp.i
 
 CMakeFiles/game_of_life.dir/src/ApplicationElements.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game_of_life.dir/src/ApplicationElements.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/c/Users/farra/OneDrive/Рабочий стол/C++ files/q/src/ApplicationElements.cpp" -o CMakeFiles/game_of_life.dir/src/ApplicationElements.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/c/Users/farra/OneDrive/Рабочий стол/C++ files/neww/src/ApplicationElements.cpp" -o CMakeFiles/game_of_life.dir/src/ApplicationElements.cpp.s
 
 CMakeFiles/game_of_life.dir/src/GameOfLife.cpp.o: CMakeFiles/game_of_life.dir/flags.make
 CMakeFiles/game_of_life.dir/src/GameOfLife.cpp.o: src/GameOfLife.cpp
 CMakeFiles/game_of_life.dir/src/GameOfLife.cpp.o: CMakeFiles/game_of_life.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Users/farra/OneDrive/Рабочий стол/C++ files/q/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/game_of_life.dir/src/GameOfLife.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game_of_life.dir/src/GameOfLife.cpp.o -MF CMakeFiles/game_of_life.dir/src/GameOfLife.cpp.o.d -o CMakeFiles/game_of_life.dir/src/GameOfLife.cpp.o -c "/mnt/c/Users/farra/OneDrive/Рабочий стол/C++ files/q/src/GameOfLife.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Users/farra/OneDrive/Рабочий стол/C++ files/neww/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/game_of_life.dir/src/GameOfLife.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game_of_life.dir/src/GameOfLife.cpp.o -MF CMakeFiles/game_of_life.dir/src/GameOfLife.cpp.o.d -o CMakeFiles/game_of_life.dir/src/GameOfLife.cpp.o -c "/mnt/c/Users/farra/OneDrive/Рабочий стол/C++ files/neww/src/GameOfLife.cpp"
 
 CMakeFiles/game_of_life.dir/src/GameOfLife.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game_of_life.dir/src/GameOfLife.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/c/Users/farra/OneDrive/Рабочий стол/C++ files/q/src/GameOfLife.cpp" > CMakeFiles/game_of_life.dir/src/GameOfLife.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/c/Users/farra/OneDrive/Рабочий стол/C++ files/neww/src/GameOfLife.cpp" > CMakeFiles/game_of_life.dir/src/GameOfLife.cpp.i
 
 CMakeFiles/game_of_life.dir/src/GameOfLife.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game_of_life.dir/src/GameOfLife.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/c/Users/farra/OneDrive/Рабочий стол/C++ files/q/src/GameOfLife.cpp" -o CMakeFiles/game_of_life.dir/src/GameOfLife.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/c/Users/farra/OneDrive/Рабочий стол/C++ files/neww/src/GameOfLife.cpp" -o CMakeFiles/game_of_life.dir/src/GameOfLife.cpp.s
 
 CMakeFiles/game_of_life.dir/src/ApplicationLogic.cpp.o: CMakeFiles/game_of_life.dir/flags.make
 CMakeFiles/game_of_life.dir/src/ApplicationLogic.cpp.o: src/ApplicationLogic.cpp
 CMakeFiles/game_of_life.dir/src/ApplicationLogic.cpp.o: CMakeFiles/game_of_life.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Users/farra/OneDrive/Рабочий стол/C++ files/q/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/game_of_life.dir/src/ApplicationLogic.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game_of_life.dir/src/ApplicationLogic.cpp.o -MF CMakeFiles/game_of_life.dir/src/ApplicationLogic.cpp.o.d -o CMakeFiles/game_of_life.dir/src/ApplicationLogic.cpp.o -c "/mnt/c/Users/farra/OneDrive/Рабочий стол/C++ files/q/src/ApplicationLogic.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Users/farra/OneDrive/Рабочий стол/C++ files/neww/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/game_of_life.dir/src/ApplicationLogic.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game_of_life.dir/src/ApplicationLogic.cpp.o -MF CMakeFiles/game_of_life.dir/src/ApplicationLogic.cpp.o.d -o CMakeFiles/game_of_life.dir/src/ApplicationLogic.cpp.o -c "/mnt/c/Users/farra/OneDrive/Рабочий стол/C++ files/neww/src/ApplicationLogic.cpp"
 
 CMakeFiles/game_of_life.dir/src/ApplicationLogic.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game_of_life.dir/src/ApplicationLogic.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/c/Users/farra/OneDrive/Рабочий стол/C++ files/q/src/ApplicationLogic.cpp" > CMakeFiles/game_of_life.dir/src/ApplicationLogic.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/c/Users/farra/OneDrive/Рабочий стол/C++ files/neww/src/ApplicationLogic.cpp" > CMakeFiles/game_of_life.dir/src/ApplicationLogic.cpp.i
 
 CMakeFiles/game_of_life.dir/src/ApplicationLogic.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game_of_life.dir/src/ApplicationLogic.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/c/Users/farra/OneDrive/Рабочий стол/C++ files/q/src/ApplicationLogic.cpp" -o CMakeFiles/game_of_life.dir/src/ApplicationLogic.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/c/Users/farra/OneDrive/Рабочий стол/C++ files/neww/src/ApplicationLogic.cpp" -o CMakeFiles/game_of_life.dir/src/ApplicationLogic.cpp.s
 
 # Object files for target game_of_life
 game_of_life_OBJECTS = \
@@ -148,7 +148,7 @@ game_of_life: _deps/raylib-build/raylib/external/glfw/src/libglfw3.a
 game_of_life: /usr/lib/x86_64-linux-gnu/librt.a
 game_of_life: /usr/lib/x86_64-linux-gnu/libm.so
 game_of_life: CMakeFiles/game_of_life.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/mnt/c/Users/farra/OneDrive/Рабочий стол/C++ files/q/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable game_of_life"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/mnt/c/Users/farra/OneDrive/Рабочий стол/C++ files/neww/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable game_of_life"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/game_of_life.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -160,6 +160,6 @@ CMakeFiles/game_of_life.dir/clean:
 .PHONY : CMakeFiles/game_of_life.dir/clean
 
 CMakeFiles/game_of_life.dir/depend:
-	cd "/mnt/c/Users/farra/OneDrive/Рабочий стол/C++ files/q" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/mnt/c/Users/farra/OneDrive/Рабочий стол/C++ files/q" "/mnt/c/Users/farra/OneDrive/Рабочий стол/C++ files/q" "/mnt/c/Users/farra/OneDrive/Рабочий стол/C++ files/q" "/mnt/c/Users/farra/OneDrive/Рабочий стол/C++ files/q" "/mnt/c/Users/farra/OneDrive/Рабочий стол/C++ files/q/CMakeFiles/game_of_life.dir/DependInfo.cmake" --color=$(COLOR)
+	cd "/mnt/c/Users/farra/OneDrive/Рабочий стол/C++ files/neww" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/mnt/c/Users/farra/OneDrive/Рабочий стол/C++ files/neww" "/mnt/c/Users/farra/OneDrive/Рабочий стол/C++ files/neww" "/mnt/c/Users/farra/OneDrive/Рабочий стол/C++ files/neww" "/mnt/c/Users/farra/OneDrive/Рабочий стол/C++ files/neww" "/mnt/c/Users/farra/OneDrive/Рабочий стол/C++ files/neww/CMakeFiles/game_of_life.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/game_of_life.dir/depend
 

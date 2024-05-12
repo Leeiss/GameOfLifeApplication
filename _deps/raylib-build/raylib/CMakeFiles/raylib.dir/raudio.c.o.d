@@ -1,12 +1,12 @@
 _deps/raylib-build/raylib/CMakeFiles/raylib.dir/raudio.c.o: \
- /mnt/c/Users/farra/OneDrive/Рабочий\ стол/C++\ files/q/_deps/raylib-src/src/raudio.c \
+ /mnt/c/Users/farra/OneDrive/Рабочий\ стол/C++\ files/neww/_deps/raylib-src/src/raudio.c \
  /usr/include/stdc-predef.h \
- /mnt/c/Users/farra/OneDrive/Рабочий\ стол/C++\ files/q/_deps/raylib-src/src/raylib.h \
+ /mnt/c/Users/farra/OneDrive/Рабочий\ стол/C++\ files/neww/_deps/raylib-src/src/raylib.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdbool.h \
- /mnt/c/Users/farra/OneDrive/Рабочий\ стол/C++\ files/q/_deps/raylib-src/src/config.h \
- /mnt/c/Users/farra/OneDrive/Рабочий\ стол/C++\ files/q/_deps/raylib-src/src/utils.h \
- /mnt/c/Users/farra/OneDrive/Рабочий\ стол/C++\ files/q/_deps/raylib-src/src/external/miniaudio.h \
+ /mnt/c/Users/farra/OneDrive/Рабочий\ стол/C++\ files/neww/_deps/raylib-src/src/config.h \
+ /mnt/c/Users/farra/OneDrive/Рабочий\ стол/C++\ files/neww/_deps/raylib-src/src/utils.h \
+ /mnt/c/Users/farra/OneDrive/Рабочий\ стол/C++\ files/neww/_deps/raylib-src/src/external/miniaudio.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h /usr/include/pthread.h \
  /usr/include/features.h /usr/include/features-time64.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
@@ -106,10 +106,10 @@ _deps/raylib-build/raylib/CMakeFiles/raylib.dir/raudio.c.o: \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
  /usr/include/x86_64-linux-gnu/bits/eventfd.h \
- /mnt/c/Users/farra/OneDrive/Рабочий\ стол/C++\ files/q/_deps/raylib-src/src/external/dr_wav.h \
- /mnt/c/Users/farra/OneDrive/Рабочий\ стол/C++\ files/q/_deps/raylib-src/src/external/stb_vorbis.c \
- /mnt/c/Users/farra/OneDrive/Рабочий\ стол/C++\ files/q/_deps/raylib-src/src/external/dr_mp3.h \
- /mnt/c/Users/farra/OneDrive/Рабочий\ стол/C++\ files/q/_deps/raylib-src/src/external/qoa.h \
- /mnt/c/Users/farra/OneDrive/Рабочий\ стол/C++\ files/q/_deps/raylib-src/src/external/qoaplay.c \
- /mnt/c/Users/farra/OneDrive/Рабочий\ стол/C++\ files/q/_deps/raylib-src/src/external/jar_xm.h \
- /mnt/c/Users/farra/OneDrive/Рабочий\ стол/C++\ files/q/_deps/raylib-src/src/external/jar_mod.h
+ /mnt/c/Users/farra/OneDrive/Рабочий\ стол/C++\ files/neww/_deps/raylib-src/src/external/dr_wav.h \
+ /mnt/c/Users/farra/OneDrive/Рабочий\ стол/C++\ files/neww/_deps/raylib-src/src/external/stb_vorbis.c \
+ /mnt/c/Users/farra/OneDrive/Рабочий\ стол/C++\ files/neww/_deps/raylib-src/src/external/dr_mp3.h \
+ /mnt/c/Users/farra/OneDrive/Рабочий\ стол/C++\ files/neww/_deps/raylib-src/src/external/qoa.h \
+ /mnt/c/Users/farra/OneDrive/Рабочий\ стол/C++\ files/neww/_deps/raylib-src/src/external/qoaplay.c \
+ /mnt/c/Users/farra/OneDrive/Рабочий\ стол/C++\ files/neww/_deps/raylib-src/src/external/jar_xm.h \
+ /mnt/c/Users/farra/OneDrive/Рабочий\ стол/C++\ files/neww/_deps/raylib-src/src/external/jar_mod.h

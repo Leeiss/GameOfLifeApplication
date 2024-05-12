@@ -1,11 +1,11 @@
 _deps/raylib-build/raylib/CMakeFiles/raylib.dir/utils.c.o: \
- /mnt/c/Users/farra/OneDrive/Рабочий\ стол/C++\ files/q/_deps/raylib-src/src/utils.c \
+ /mnt/c/Users/farra/OneDrive/Рабочий\ стол/C++\ files/neww/_deps/raylib-src/src/utils.c \
  /usr/include/stdc-predef.h \
- /mnt/c/Users/farra/OneDrive/Рабочий\ стол/C++\ files/q/_deps/raylib-src/src/raylib.h \
+ /mnt/c/Users/farra/OneDrive/Рабочий\ стол/C++\ files/neww/_deps/raylib-src/src/raylib.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdbool.h \
- /mnt/c/Users/farra/OneDrive/Рабочий\ стол/C++\ files/q/_deps/raylib-src/src/config.h \
- /mnt/c/Users/farra/OneDrive/Рабочий\ стол/C++\ files/q/_deps/raylib-src/src/utils.h \
+ /mnt/c/Users/farra/OneDrive/Рабочий\ стол/C++\ files/neww/_deps/raylib-src/src/config.h \
+ /mnt/c/Users/farra/OneDrive/Рабочий\ стол/C++\ files/neww/_deps/raylib-src/src/utils.h \
  /usr/include/stdlib.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
