@@ -1,3 +1,6 @@
+#ifndef GIME_OF_LIVE_N
+#define GIME_OF_LIVE_N
+
 #include "../headers/ApplicationElements.h"
 #include "../headers/ApplicationLogic.h"
 #include "../headers/Libs.h"
@@ -29,4 +32,13 @@ class GameOfLifeApp {
   void UpdateCamera();
   void UpdateInteraction();
   void Draw();
+  void ImplementMenuCommands();
+  void ImplementGeneralCommands();
+  void ImplementEventSpeedSliderChanged();
+  void ImplementEventAmountOfCellsSliderChanged();
+  void ImplementEventModeChanged();
+  void ImplementEventMenuVisibilityChanged();
+  void ImplementEventCellSelected();
+  void ImplementKeyboardEvents();
 };
+#endif

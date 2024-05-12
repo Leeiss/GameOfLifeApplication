@@ -35,8 +35,7 @@ void InterfaceManager::DrawGeneralMenuItems(bool manualMode,
   DrawRectangle(10, 10, 30, 30, BLACK);
   DrawText("<-", 15, 15, 20, WHITE);
   DrawRectangle(10, 10, 300, SCREEN_HEIGHT - 20,
-                Fade(BLACK, 0.8f));  // Задаем размеры и цвет фона
-  // Размещаем текст с возможными действиями
+                Fade(BLACK, 0.8f));  
   DrawText("> press:", 20, 50, 21,
            Fade(Color{116, 66, 200, 255}, 0.8f));  // Делаем текст более темным
   DrawText(TextFormat("%i", (int)speedSlider.value),
@@ -63,7 +62,7 @@ void InterfaceManager::DrawRandomModeMenuItems(Slider numberOfCellsSlider,
       "\n>  >left mouse<  to spawn\n"
       "one cell",
       30, 170, 20, WHITE);
-  DrawText(">  >esc<  to quit the game", 30, 230, 20, WHITE);
+  DrawText(">  >esc<  to quit the game", 30, 260, 20, WHITE);
 
   DrawText("Change the number of\ncells added", 20, SCREEN_HEIGHT - 150, 17,
            Color{116, 66, 200, 255});

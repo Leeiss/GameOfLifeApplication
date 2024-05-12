@@ -19,6 +19,7 @@ class InterfaceManager {
   void DrawRandomModeMenuItems(Slider numberOfCellsSlider, Slider speedSlider);
   void DrawManualModeMenuItems();
   void DrawWithoutMenu();
+  
 };
 
 #endif
