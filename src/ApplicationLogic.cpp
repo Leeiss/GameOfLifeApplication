@@ -1,6 +1,8 @@
 #include "../headers/ApplicationLogic.h"
 
 namespace cellularAutomaton {
+
+
 void game_of_life::update_system(bool manualMode) {
   auto& targetSystem = manualMode ? manualCells : system;
   auto new_system = targetSystem;

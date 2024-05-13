@@ -1,6 +1,5 @@
 
 #include "../headers/ApplicationElements.h"
-
 #include "../headers/Libs.h"
 
 float InterfaceManager::Clamp(float value, float min, float max) {
