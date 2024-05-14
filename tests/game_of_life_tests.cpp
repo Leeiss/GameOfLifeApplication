@@ -9,7 +9,7 @@ TEST(GameOfLifeTest, UpdateSystemTest) {
 
   gol.update_system(false);
 
-  EXPECT_EQ(gol.system[0][0], 0); 
+  EXPECT_EQ(gol.getVecSystem()[0][0], 0); 
 }
 
 
@@ -19,7 +19,7 @@ TEST(GameOfLifeTest, ClearManualCellsTest) {
 
   gol.clear_manual_cells();
 
-  EXPECT_EQ(gol.system[0][0], 0);
+  EXPECT_EQ(gol.getVecSystem()[0][0], 0);
 }
 
 TEST(GameOfLifeTest, SystemInitTest) {
@@ -27,7 +27,7 @@ TEST(GameOfLifeTest, SystemInitTest) {
 
   gol.system_init();
 
-  EXPECT_EQ(gol.system[0][0], 0);
+  EXPECT_EQ(gol.getVecSystem()[0][0], 0);
 }
 
 
@@ -37,7 +37,7 @@ TEST(GameOfLifeTest, UpdateSystemManualModeTest) {
 
   gol.update_system(true);
 
-  EXPECT_EQ(gol.system[0][0], 0);
+  EXPECT_EQ(gol.getVecSystem()[0][0], 0);
 }
 
 

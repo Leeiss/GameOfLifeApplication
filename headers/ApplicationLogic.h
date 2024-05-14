@@ -4,21 +4,22 @@
 #include "ApplicationElements.h"
 #include "Libs.h"
 
-const int ROWS = SCREEN_HEIGHT / CELL_SIZE;
-const int COLS = SCREEN_WIDTH / CELL_SIZE;
 
 namespace cellularAutomaton {
     class game_of_life {
     public:
         game_of_life()
-            : system(ROWS, std::vector<bool>(COLS, false)),
-            manualCells(ROWS, std::vector<bool>(COLS, false)) {
+            : system(getRows(), std::vector<bool>(getCols(), false)),
+            manualCells(getRows(), std::vector<bool>(getCols(), false)) {
             system_init();
         }
+        std::vector<Vector2> getNewCells(){return newCells;}
 
-        std::vector<Vector2> newCells;
+        std::vector<std::vector<bool>> getVecSystem(){return system;}
 
-        std::vector<std::vector<bool>> system;
+        int getRows(){return SCREEN_HEIGHT / CELL_SIZE;}
+
+        int getCols(){return SCREEN_WIDTH / CELL_SIZE;}
 
         void update_system(bool manualMode);
 
@@ -35,7 +36,8 @@ namespace cellularAutomaton {
         void system_init();
 
     private:
-       
+        std::vector<Vector2> newCells;
+        std::vector<std::vector<bool>> system;
         std::vector<std::vector<bool>> manualCells;
 
     };

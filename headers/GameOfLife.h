@@ -25,7 +25,6 @@ class GameOfLifeApp {
     camera.zoom = 1.0f;
     interfaceManager.SliderOptions(numberOfCellsSlider, speedSlider);
   }
-
   void Run();
 
  private:

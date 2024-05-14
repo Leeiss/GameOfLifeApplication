@@ -3,14 +3,11 @@
 #include "../headers/Libs.h"
 
 float InterfaceManager::Clamp(float value, float min, float max) {
-  if (value < min) {
-    return min;
-  } else if (value > max) {
-    return max;
-  } else {
-    return value;
+  if (value < min) return min;
+   else if (value > max) return max;
+     else return value;
   }
-}
+
 void InterfaceManager::DrawSlider(Slider slider) {
   DrawRectangleRec(slider.bounds, GRAY);
   Rectangle filledBounds = {slider.bounds.x, slider.bounds.y,
@@ -35,7 +32,7 @@ void InterfaceManager::DrawGeneralMenuItems(bool manualMode,
   DrawText(TextFormat("%i", (int)speedSlider.value),
            speedSlider.bounds.x + speedSlider.bounds.width - 25,
            speedSlider.bounds.y - 20, 15, WHITE);
-  DrawText("Change cell size", 20, SCREEN_HEIGHT - 220, 17,
+  DrawText("Change speed", 20, SCREEN_HEIGHT - 220, 17,
            Color{116, 66, 200, 255});
   DrawSlider(speedSlider);
   DrawRectangle(20, SCREEN_HEIGHT - 60, 280, 40,
