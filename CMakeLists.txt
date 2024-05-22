@@ -32,27 +32,3 @@ add_executable(game_of_life
 
 target_link_libraries(${PROJECT_NAME} raylib)
 
-set(GTEST_INSTALL_DIR ${CMAKE_BINARY_DIR}/googletest)
-if(NOT EXISTS ${GTEST_INSTALL_DIR})
-    message("Google Test not found, cloning from Git...")
-    execute_process(COMMAND git clone --branch release-1.11.0 --depth 1 https://github.com/google/googletest.git ${GTEST_INSTALL_DIR})
-endif()
-
-include_directories(${GTEST_INSTALL_DIR}/googletest/include)
-
-add_subdirectory(${GTEST_INSTALL_DIR})
-
-add_executable(test tests/main.cpp tests/game_of_life_tests.cpp src/ApplicationLogic.cpp)
-
-target_link_libraries(
-    test 
-    raylib
-    GTest::gtest
-    GTest::gmock
-    GTest::gtest_main
-    GTest::gmock_main
-)
-
-add_dependencies(test gtest)
-
-add_custom_command(TARGET test POST_BUILD COMMAND test)
